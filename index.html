@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel = "stylesheet">
+    <link href = "https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel = "stylesheet">
+    <link rel = "stylesheet" href = "./styles.css">
+
+    <title>Dishant B</title>
+</head>
+<body>
+    <nav>
+        <img id = "nav-logo" src = "./assets/logo.png" alt = "My logo." />
+        <div class = "nav">
+            <a class = "nav-item" href = "#about">About</a>
+            <a class = "nav-item" href = "#projects">Projects</a>
+            <a class = "nav-item" href = "#socials">Socials</a>
+        </div>
+    </nav>
+    <main>
+        <h2 class = "section" id = "about">About</h2>
+        <p class = "content">
+            I&apos;m a high-school student with a passion for soccer and coding. Ever since I was a kid, I was
+            building things with LEGOs, now, I build software. I&apos;m responsible and driven. I can also
+            communicate on time and clearly while successfully working in a team. My favorite sport, soccer, 
+            helps reinforce my importance of discipline and teamwork.
+        </p>
+        <h2 class = "section" id = "projects">Projects</h2>
+        <p class = "content">
+            <span class = "project"><a href = "https://github.com/dishb/monstera">monstera</a></span>
+            - Monstera is a command-line-tool (CLI) that I wrote purely in my favorite language, Python. This was my first original
+            project that I&apos;d made. I came up with the idea after looking through GitHub issues on one of my favorite 
+            Python packages, customtkinter. The issue I saw was that whenever someone created an issue in the GitHub 
+            repository, they would forget to include important details like their version of the package or their 
+            operating system. Often, these issues were solved in the latest release, which they were not using. Monstera 
+            aims to solving this issue by making all of this information easily accessible. Just run one command in your terminal!
+            With GitHub's issue templates, project maintainers can ask people to copy and paste the output of monstera.
+            <br /> <br />
+            <span class = "project"><a href = "https://github.com/dishb/firestarter">firestarter</a></span>
+            - Firestarter is another command-line-tool (CLI) written in only Python. I continued my little "trend" of programming CLIs 
+            in Python after monstera. At the time, I had been learning web development with ReactJS and had been using ViteJS as my
+            development tool. I liked how ViteJS helped developers quickly start new web development projects by creating the
+            boilerplate files and scaffolding necessary. I wanted to bring this functionality to the Python ecosystem. So, I created 
+            firestarter. I even wrote a small, custom language for firestarter called fuel that allows you to setup a project without manually
+            answering all the basic questions the CLI asks. The project isn&apos;t as featured as ViteJS because I haven&apos;t worked on it for as 
+            long as the ViteJS devs and some features (like live servers) aren't necessary.
+            <br /> <br />
+            <span class = "project"><a href = "https://github.com/dishb/recycle-it">recycle-it</a></span>
+            - RecycleIT was a project I made at my first 24-hour hackathon. I participated in a hackathon in my city with a partner whom I&apos;d met online. 
+            The theme given to us was wheels in a cog. The organizers of the competition explained that this theme referred to people within society 
+            whose jobs/roles usually go unnoticed. We decided to focus our project on municipal utilities, specifically, garbage. Our project is a 
+            desktop application that uses AI to analyze an image and decide whether the object should be recycled, trashed, or composted. We used Python, 
+            customtkinter, and a free API (AI waste classification) to built the application. The project was a great learning experience for me and 
+            allowed me to meet new people while stepping outside of my comfort zone.
+        </p>
+    </main>
+    <footer id = "socials">
+        <a href = "https://github.com/dishb">
+            <i class = "fa-brands fa-github"></i>
+        </a>
+        <a href = "mailto:code.dishb@gmail.com">
+            <i class = "fa-solid fa-envelope"></i>
+        </a>
+        <a href = "https://www.figma.com/@dishb">
+            <i class = "fa-brands fa-figma"></i>
+        </a>
+    </footer>
+
+    <script src = "https://kit.fontawesome.com/f14974ad8d.js" crossorigin = "anonymous"></script>
+</body>
+</html>
