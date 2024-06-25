@@ -108,7 +108,7 @@ main {
 
 a {
     text-decoration: none;
-    transition: color 250ms ease-in-out;
+    transition: color 200ms ease-in-out;
 }
 
 a, a:visited {
